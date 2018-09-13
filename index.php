@@ -40,7 +40,7 @@
             , $ball->getColor());
 
             print("<p>Selling two tennis balls...</p>\n");
-            $ball->sellItem(5);
+            $ball->sellItem();
             $ball->sellItem();
 
             printf("<p>There are now %s %s golfballs in stock, and the sizes of the golfballs %s</p>\n"
